@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ControllerActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/leftSpeedUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L+" />
+
+            <Button
+                android:id="@+id/leftSpeedDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L-" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/allSpeedUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL+" />
+
+            <Button
+                android:id="@+id/allSpeedDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL-" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/rightSpeedUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R+" />
+
+            <Button
+                android:id="@+id/rightSpeedDown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R-" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/b_leftForward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Left Forward" />
+
+            <Button
+                android:id="@+id/b_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="forward" />
+
+            <Button
+                android:id="@+id/b_rightForward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right Forward" />
+        </TableRow>
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/b_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="left" />
+
+            <Button
+                android:id="@+id/b_stop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="stop" />
+
+            <Button
+                android:id="@+id/b_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right" />
+        </TableRow>
+
+
+        <TableRow android:layout_width="match_parent">
+
+            <Button
+                android:id="@+id/b_leftBackward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Left Backward" />
+
+            <Button
+                android:id="@+id/b_backward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="backward" />
+
+            <Button
+                android:id="@+id/b_rightBackward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Right Backward" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</android.widget.LinearLayout>

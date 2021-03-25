@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BT_RC_controller</string>
+    <string name="unconnected">unconnected</string>
+    <string name="get_paired_devices">Get Paired Device</string>
+    <string name="discover_new_devices">Discover New Devices</string>
+    <string name="backdoor">backdoor</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_connecting">Connecting</string>
+    <string name="status_not_connected">Not Connected</string>
+    <string name="BTunsupport">哭哭喔藍芽不能用</string>
+    <string name="ok">ok</string>
+</resources>
